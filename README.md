@@ -28,8 +28,12 @@ Data Cleaning: Handled missing values in netflix_titles.csv, removed duplicates,
 Transformation: Filtered out inconsistent category types to ensure data accuracy.
 Visualization: Built an interactive multi-page report in Power BI with cross-filtering capabilities.
 
-Repository Contents
+Repository Contents:
+
 EDA.pbix: The source Power BI file.
+
 netflix_titles.csv: The raw dataset.
+
 EDA Report.docx: Detailed documentation and methodology.
+
 /screenshots: High-resolution captures of the analysis.
