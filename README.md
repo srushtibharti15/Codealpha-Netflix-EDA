@@ -2,33 +2,33 @@
 This project was completed during my Data Analytics Internship at Codealpha!
 
 Netflix Data Trends Analysis
-Professional Overview:
-This Exploratory Data Analysis (EDA) project was developed as part of my internship at Company Name. The goal was to provide data-driven insights into Netflix’s content strategy to assist in decision-making processes regarding library expansion and regional focus.
+Internship Project Overview:
+This project was developed during my Data Analytics Internship at [Codealpha] (https://www.codealpha.tech/). I was tasked with analyzing the Netflix library to identify content gaps, regional trends, and thematic clusters.
 
-Project Goals:
-The primary objective of this internship task was to extract meaningful insights from raw data, specifically focusing on:
-Growth Trends: Visualizing the massive content surge post-2015.
-Content Split: Comparing the volume of Movies vs. TV Shows across different regions.
-Thematic Search: Building a custom system to identify "Thriller" and "Murder Mystery" themes.
+Dashboard View:
+Full interactive view of the Netflix Analysis Dashboard developed in Power BI.
 
-Technical Implementation:
-Data Cleaning & Preparation
-Before visualization, I performed the following preprocessing steps to ensure data integrity:
-Duplicate Removal: Identified and removed redundant entries from the netflix_titles.csv.
-Data Type Correction: Standardized date_added and release_year formats for time-series analysis.
-Filtering: Removed incorrect category values from the type column to ensure a clean split between Movies and TV Shows.
+ Project Goals & Insights:
+Based on the project requirements from [Company Name], I focused on three key analytical pillars:
 
-Advanced Analysis (DAX & Custom Logic)
-To go beyond basic charts, I created a custom keyword-based detection system. Using a calculated column, I used logic to scan the description field for specific keywords:
+1. Global Content Distribution
+Findings: My analysis confirmed that Movies represent the majority of the catalog. The United States and India emerged as the primary content hubs.
 
-Logic: If the description contained "Murder," "Mystery," "Thriller," or "Crime," it was tagged as a Suspense/Crime Theme.
+2. Content Evolution (The 2015 Surge)
+Findings: I identified a massive spike in content additions starting in 2015. This data visualization highlights Netflix's aggressive shift toward original programming in the last decade.
 
-Purpose: This allowed the company to see the prevalence of these high-performing genres even when they weren't explicitly listed in the primary category.
+3. Thematic Keyword Detection (Advanced DAX)
+Findings: To go beyond standard genres, I built custom logic to scan descriptions for "Suspense" and "Crime" themes.
 
+Technical Detail: I used a custom calculated column to flag titles containing keywords like Murder, Mystery, or Thriller.
 
-Project Structure
-EDA.pbix: The full interactive Power BI dashboard.
+Technical Workflow:
+Data Cleaning: Handled missing values in netflix_titles.csv, removed duplicates, and corrected date formats.
+Transformation: Filtered out inconsistent category types to ensure data accuracy.
+Visualization: Built an interactive multi-page report in Power BI with cross-filtering capabilities.
 
-netflix_titles.csv: The source dataset.
-
-EDA Report.docx: A detailed technical report outlining the methodology and findings.
+Repository Contents
+EDA.pbix: The source Power BI file.
+netflix_titles.csv: The raw dataset.
+EDA Report.docx: Detailed documentation and methodology.
+/screenshots: High-resolution captures of the analysis.
