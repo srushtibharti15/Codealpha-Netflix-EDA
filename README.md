@@ -7,6 +7,7 @@ This project was developed during my Data Analytics Internship at [Codealpha] (h
 
 Dashboard View:
 Full interactive view of the Netflix Analysis Dashboard developed in Power BI.
+![Image alt](https://github.com/srushtibharti15/Codealpha-Netflix-EDA/blob/8f6d05f2c0d075139c31cb8c6382853f971791e2/Screenshot%202026-02-19%20181845.png)
 
  Project Goals & Insights:
 Based on the project requirements from [Company Name], I focused on three key analytical pillars:
